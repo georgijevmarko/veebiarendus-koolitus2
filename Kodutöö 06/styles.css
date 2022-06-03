@@ -1,0 +1,36 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.pais {
+    display: flex;
+    justify-content: space-between;
+}
+.pais-sektsioon {
+    background-image: url('assets/hills.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 37px 72px 140px;
+}
+
+.pais-vasak {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-pealkiri {
+    font-size: 33px;
+    font-weight: 800;
+    color: #0B0B0B;
+    width: 126px;
+    word-wrap: normal;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+
+
